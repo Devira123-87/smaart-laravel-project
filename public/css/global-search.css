@@ -1,0 +1,193 @@
+/* Kegunaan file: Mengatur tampilan dialog dan hasil pencarian global. */
+.smaart-search-trigger {
+    display: inline-flex;
+    width: 38px;
+    height: 38px;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: 1px solid rgba(148, 163, 184, 0.4);
+    border-radius: 50%;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.smaart-search-trigger:hover,
+.smaart-search-trigger:focus-visible {
+    border-color: currentColor;
+    background: rgba(148, 163, 184, 0.12);
+}
+
+.smaart-search-trigger svg {
+    width: 18px;
+    height: 18px;
+    fill: none;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-width: 1.8;
+}
+
+.smaart-search-dialog {
+    position: fixed;
+    inset: auto;
+    width: min(460px, calc(100vw - 2rem));
+    max-width: none;
+    max-height: calc(100vh - 6rem);
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    border: 0;
+    border-radius: 16px;
+    background: transparent;
+    color: inherit;
+}
+
+.smaart-search-dialog::backdrop {
+    background: rgba(15, 23, 42, 0.42);
+}
+
+.smaart-search-panel {
+    padding: 1.25rem;
+    border: 1px solid rgba(148, 163, 184, 0.28);
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 20px 55px rgba(15, 23, 42, 0.2);
+    color: #182b3e;
+}
+
+.smaart-search-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-block-end: 1rem;
+}
+
+.smaart-search-heading h2 {
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.3;
+}
+
+.smaart-search-close {
+    display: inline-flex;
+    width: 34px;
+    height: 34px;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.smaart-search-close:hover,
+.smaart-search-close:focus-visible {
+    background: rgba(148, 163, 184, 0.16);
+}
+
+.smaart-search-form {
+    margin: 0;
+}
+
+.smaart-search-form input {
+    width: 100%;
+    min-height: 46px;
+    padding: 0.7rem 0.85rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    background: #fff;
+    color: #182b3e;
+    font: inherit;
+}
+
+.smaart-search-form input:focus-visible,
+.smaart-search-close:focus-visible,
+.smaart-search-results a:focus-visible {
+    outline: 3px solid #2876b9;
+    outline-offset: 2px;
+}
+
+.smaart-search-status {
+    margin: 0.75rem 0 0.5rem;
+    color: #607184;
+    font-size: 0.85rem;
+}
+
+.smaart-search-results {
+    display: grid;
+    gap: 0.5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.smaart-search-results:empty {
+    display: none;
+}
+
+.smaart-search-results a {
+    display: grid;
+    gap: 0.2rem;
+    padding: 0.75rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    color: inherit;
+    text-decoration: none;
+    transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.smaart-search-results a:hover {
+    border-color: #94a3b8;
+    background: #f8fafc;
+}
+
+.smaart-search-result-category {
+    color: #2876b9;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.smaart-search-results strong {
+    font-size: 0.92rem;
+}
+
+.smaart-search-results small {
+    color: #607184;
+    font-size: 0.8rem;
+    line-height: 1.45;
+}
+
+.smaart-search-visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    clip-path: inset(50%);
+}
+
+@media (max-width: 760px) {
+    .smaart-search-trigger {
+        position: absolute;
+        inset-block-start: 50%;
+        inset-inline-end: 54px;
+        transform: translateY(-50%);
+    }
+
+    .smaart-search-panel {
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustrasi antarmuka SMaart Channel</title>
+  <desc id="desc">Dashboard omni-channel untuk mengelola pesan pelanggan dari beberapa kanal.</desc>
+  <rect width="680" height="340" fill="#eff3f7"/>
+  <rect x="18" y="18" width="644" height="304" rx="12" fill="#fff"/>
+  <path d="M30 18h620a12 12 0 0 1 12 12v34H18V30a12 12 0 0 1 12-12Z" fill="#273a58"/>
+  <circle cx="40" cy="41" r="5" fill="#62d0bd"/><text x="55" y="45" fill="#fff" font-family="Arial,sans-serif" font-size="12" font-weight="700">SMAART CHANNEL</text>
+  <rect x="18" y="64" width="202" height="258" fill="#f7f8fb"/>
+  <text x="34" y="91" fill="#55677d" font-family="Arial,sans-serif" font-size="11" font-weight="700">Kotak Masuk</text>
+  <rect x="30" y="105" width="178" height="49" rx="6" fill="#e5f2f1"/>
+  <circle cx="51" cy="129" r="12" fill="#80b7af"/><rect x="72" y="120" width="95" height="6" rx="3" fill="#7e929f"/><rect x="72" y="133" width="117" height="5" rx="2.5" fill="#bdc9d0"/>
+  <circle cx="51" cy="177" r="12" fill="#c7d6e4"/><rect x="72" y="168" width="82" height="6" rx="3" fill="#8798a6"/><rect x="72" y="181" width="112" height="5" rx="2.5" fill="#d0d8de"/>
+  <circle cx="51" cy="225" r="12" fill="#ead2c2"/><rect x="72" y="216" width="91" height="6" rx="3" fill="#8798a6"/><rect x="72" y="229" width="103" height="5" rx="2.5" fill="#d0d8de"/>
+  <text x="244" y="94" fill="#263b53" font-family="Arial,sans-serif" font-size="16" font-weight="700">Percakapan pelanggan</text>
+  <text x="244" y="113" fill="#8b9aa6" font-family="Arial,sans-serif" font-size="10">WhatsApp · Instagram · Web chat</text>
+  <rect x="244" y="132" width="258" height="52" rx="8" fill="#f1f5f7"/><text x="258" y="153" fill="#536778" font-family="Arial,sans-serif" font-size="10">Halo, saya ingin mengetahui informasi produk.</text><rect x="258" y="163" width="109" height="5" rx="2.5" fill="#ced8de"/>
+  <rect x="358" y="197" width="274" height="61" rx="8" fill="#e6f4f0"/><text x="373" y="220" fill="#456b66" font-family="Arial,sans-serif" font-size="10">Tentu, kami siap membantu. Produk apa</text><text x="373" y="237" fill="#456b66" font-family="Arial,sans-serif" font-size="10">yang ingin Anda tanyakan?</text>
+  <rect x="244" y="276" width="388" height="28" rx="14" fill="#fff" stroke="#dce4e8"/><text x="260" y="294" fill="#9aa8b0" font-family="Arial,sans-serif" font-size="10">Tulis balasan...</text>
+</svg>

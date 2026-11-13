@@ -1,0 +1,108 @@
+CATATAN LATIHAN PRESENTASI WEBSITE SMAART
+
+Tujuan: bahan latihan bicara. Tidak perlu dihafal kata per kata; pahami alurnya.
+
+
+SLIDE 1 — PEMBUKA
+
+"Selamat pagi/siang. Saya akan menjelaskan website PT SMAART Kreasi Digital,
+mulai dari tampilan, teknologi yang digunakan, sampai contoh cara kerja kodenya."
+
+
+SLIDE 2 — TUJUAN DAN TAMPILAN WEBSITE
+
+"Website ini berfungsi untuk memperkenalkan SMAART, menjelaskan layanan dan
+produk, serta memudahkan calon pelanggan menghubungi tim. Pengunjung dapat
+melihat dua pilar layanan dan produk digital, mengirim formulir konsultasi,
+atau bertanya lewat chat. Admin juga punya halaman khusus untuk mengelola
+konten dan menindaklanjuti pesan."
+
+Saat demo, tunjukkan beranda, pilar, satu atau dua produk, formulir/chat, lalu
+dashboard admin. Tidak perlu membuka semua menu.
+
+
+SLIDE 3 — TEKNOLOGI
+
+"Bagian server dibuat dengan PHP dan Laravel. Blade dan HTML menyusun halaman,
+CSS mengatur tampilannya, dan JavaScript membuat fitur seperti menu,
+pencarian, tema, serta chat menjadi interaktif. Vite menyiapkan file CSS dan
+JavaScript untuk website. Di konfigurasi proyek, MySQL menjadi database
+default; database yang benar-benar dipakai mengikuti pengaturan environment."
+
+Ingat analogi sederhana:
+- Blade/HTML = kerangka halaman.
+- CSS = tampilan dan tata letak.
+- JavaScript = interaksi di browser.
+- PHP/Laravel = proses di balik website.
+- Database = tempat menyimpan data.
+
+
+SLIDE 4 — CONTOH ALUR CODING KONSULTASI
+
+"Contohnya formulir konsultasi. Route adalah alamat yang menerima formulir.
+Route meneruskan permintaan ke controller. Controller memeriksa isian, seperti
+nama, email, dan pesan. Jika valid, model menyimpan data ke database.
+Migration menjelaskan kolom-kolom yang tersedia di tabel."
+
+Cara mengingat urutannya:
+Pengunjung isi form
+  -> Route menerima
+  -> Controller memeriksa
+  -> Model menyimpan
+  -> Database menyimpan data
+  -> Admin meninjau konsultasi
+
+Arti beberapa istilah di kode:
+- Route::post: menerima kiriman formulir melalui metode POST.
+- validate: memeriksa data sebelum diproses.
+- required: isian wajib diisi.
+- email: memastikan format isian berupa email.
+- ProjectConsultation::create: membuat dan menyimpan data konsultasi.
+- $fillable: daftar kolom yang boleh disimpan melalui model.
+- Migration: rancangan tabel database.
+
+
+SLIDE 5 — ADMIN, CHAT, DAN PENGUJIAN
+
+"Halaman admin hanya bisa dibuka setelah login. Admin dapat mengelola produk
+dan pilar, melihat konsultasi, serta membalas atau menutup percakapan.
+Chatbot saat ini bukan memakai layanan AI eksternal: jawabannya dipilih
+berdasarkan kata kunci. Jika pengunjung meminta admin, percakapan dapat
+diteruskan ke tim. Pengujian otomatis dipakai untuk memeriksa perilaku seperti
+login, konsultasi, produk, pilar, dan chat."
+
+
+SLIDE 6 — PENUTUP
+
+"Kesimpulannya, website ini bukan hanya halaman informasi. Website juga
+mengumpulkan konsultasi dan menyediakan dashboard agar admin dapat mengelola
+konten serta menindaklanjuti pengunjung. Terima kasih, saya siap menerima
+pertanyaan."
+
+
+JAWABAN SINGKAT JIKA DITANYA
+
+T: Website ini dibuat pakai apa?
+J: "PHP dengan framework Laravel 10 untuk proses server; Blade/HTML, CSS,
+   JavaScript, dan Vite untuk halaman serta interaksi."
+
+T: Database-nya apa?
+J: "Konfigurasi proyek memakai MySQL sebagai default. Database yang aktif
+   ditentukan pengaturan environment."
+
+T: Coding formulir konsultasi itu buat apa?
+J: "Untuk menerima formulir, memeriksa isinya, lalu menyimpan data yang valid
+   supaya admin bisa menindaklanjuti."
+
+T: Chatbot-nya menggunakan AI?
+J: "Belum menggunakan layanan AI eksternal. Jawaban otomatis dicocokkan dari
+   kata kunci, dan chat dapat diteruskan ke admin."
+
+T: Bagaimana memastikan website berjalan?
+J: "Ada pengujian otomatis untuk memeriksa beberapa alur, seperti login,
+   konsultasi, produk, pilar, dan chat."
+
+T: Kalau lupa jawaban?
+J: "Saya masih belajar bagian teknisnya. Yang saya pahami, alurnya adalah
+   pengunjung mengirim data, aplikasi memeriksa dan menyimpan data, lalu admin
+   menindaklanjuti."

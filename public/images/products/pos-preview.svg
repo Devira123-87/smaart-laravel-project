@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustrasi antarmuka SMaart POS</title>
+  <desc id="desc">Dashboard point of sales dengan ringkasan transaksi dan grafik penjualan.</desc>
+  <rect width="680" height="340" fill="#eff3f2"/>
+  <rect x="18" y="18" width="644" height="304" rx="12" fill="#fff"/>
+  <path d="M30 18h620a12 12 0 0 1 12 12v34H18V30a12 12 0 0 1 12-12Z" fill="#26483f"/>
+  <circle cx="40" cy="41" r="5" fill="#8ed0a7"/><text x="55" y="45" fill="#fff" font-family="Arial,sans-serif" font-size="12" font-weight="700">SMAART POS</text>
+  <rect x="18" y="64" width="130" height="258" fill="#f4f7f5"/>
+  <rect x="31" y="89" width="103" height="27" rx="5" fill="#dcebe1"/><rect x="46" y="100" width="69" height="5" rx="2.5" fill="#6d927d"/>
+  <rect x="46" y="135" width="62" height="5" rx="2.5" fill="#bbc9c0"/><rect x="46" y="164" width="71" height="5" rx="2.5" fill="#bbc9c0"/><rect x="46" y="193" width="54" height="5" rx="2.5" fill="#bbc9c0"/>
+  <text x="174" y="95" fill="#28463a" font-family="Arial,sans-serif" font-size="17" font-weight="700">Ringkasan penjualan</text>
+  <text x="174" y="115" fill="#809187" font-family="Arial,sans-serif" font-size="10">Pantau performa toko Anda hari ini</text>
+  <rect x="174" y="131" width="137" height="59" rx="7" fill="#f4f8f5" stroke="#e7eee9"/><text x="187" y="151" fill="#819187" font-family="Arial,sans-serif" font-size="9">PENJUALAN</text><text x="187" y="175" fill="#315c47" font-family="Arial,sans-serif" font-size="16" font-weight="700">Ringkasan</text>
+  <rect x="321" y="131" width="137" height="59" rx="7" fill="#f4f8f5" stroke="#e7eee9"/><text x="334" y="151" fill="#819187" font-family="Arial,sans-serif" font-size="9">TRANSAKSI</text><text x="334" y="175" fill="#315c47" font-family="Arial,sans-serif" font-size="16" font-weight="700">Aktivitas</text>
+  <rect x="468" y="131" width="166" height="59" rx="7" fill="#f4f8f5" stroke="#e7eee9"/><text x="481" y="151" fill="#819187" font-family="Arial,sans-serif" font-size="9">PRODUK</text><text x="481" y="175" fill="#315c47" font-family="Arial,sans-serif" font-size="16" font-weight="700">Inventori</text>
+  <rect x="174" y="204" width="460" height="100" rx="7" fill="#fff" stroke="#e5ebe7"/>
+  <text x="190" y="223" fill="#5f7668" font-family="Arial,sans-serif" font-size="10" font-weight="700">Tren penjualan</text>
+  <path d="M193 281h418M206 271l48-15 45 8 48-29 46 16 51-28 42 13 47-24" fill="none" stroke="#4f9b76" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M206 271l48-15 45 8 48-29 46 16 51-28 42 13 47-24v69H206Z" fill="#e2f0e8" opacity=".72"/>
+</svg>

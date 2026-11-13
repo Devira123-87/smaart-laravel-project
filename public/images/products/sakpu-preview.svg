@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustrasi antarmuka SMaart Sakpu</title>
+  <desc id="desc">Dashboard analisa kebijakan publik dengan panel percakapan asisten AI.</desc>
+  <rect width="680" height="340" fill="#edf2f6"/>
+  <rect x="18" y="18" width="644" height="304" rx="12" fill="#fff"/>
+  <path d="M30 18h620a12 12 0 0 1 12 12v34H18V30a12 12 0 0 1 12-12Z" fill="#14334a"/>
+  <circle cx="40" cy="41" r="5" fill="#6ec6c1"/><text x="55" y="45" fill="#fff" font-family="Arial,sans-serif" font-size="12" font-weight="700">SMAART SAKPU</text>
+  <circle cx="618" cy="41" r="13" fill="#315d73"/><text x="614" y="45" fill="#fff" font-family="Arial,sans-serif" font-size="10">S</text>
+  <rect x="18" y="64" width="140" height="258" fill="#f4f7f9"/>
+  <text x="36" y="94" fill="#577082" font-family="Arial,sans-serif" font-size="10" font-weight="700">RUANG KERJA</text>
+  <rect x="32" y="108" width="111" height="30" rx="5" fill="#dce9ee"/><circle cx="47" cy="123" r="5" fill="#3983a1"/><rect x="59" y="120" width="63" height="6" rx="3" fill="#7390a1"/>
+  <circle cx="47" cy="160" r="5" fill="#a8bac5"/><rect x="59" y="157" width="56" height="6" rx="3" fill="#c5d1d8"/>
+  <circle cx="47" cy="190" r="5" fill="#a8bac5"/><rect x="59" y="187" width="67" height="6" rx="3" fill="#c5d1d8"/>
+  <text x="184" y="101" fill="#25465c" font-family="Arial,sans-serif" font-size="18" font-weight="700">Analisa Kebijakan Publik</text>
+  <text x="184" y="122" fill="#748896" font-family="Arial,sans-serif" font-size="10">Temukan informasi dan insight kebijakan</text>
+  <rect x="184" y="143" width="443" height="106" rx="8" fill="#f4f8fa" stroke="#e4ebef"/>
+  <circle cx="207" cy="169" r="11" fill="#d9e9ee"/><path d="M202 169h10m-5-5v10" stroke="#347995" stroke-width="2" stroke-linecap="round"/>
+  <rect x="227" y="162" width="259" height="7" rx="3.5" fill="#b7c8d1"/><rect x="227" y="177" width="347" height="6" rx="3" fill="#d6e0e5"/><rect x="227" y="190" width="315" height="6" rx="3" fill="#d6e0e5"/>
+  <rect x="198" y="211" width="397" height="24" rx="12" fill="#e6f2f3"/><text x="214" y="227" fill="#547481" font-family="Arial,sans-serif" font-size="10">Ringkasan kebijakan dan analisis siap ditampilkan di sini</text>
+  <rect x="184" y="269" width="443" height="34" rx="17" fill="#fff" stroke="#d9e3e8"/><text x="202" y="290" fill="#98a8b2" font-family="Arial,sans-serif" font-size="10">Tanyakan tentang kebijakan publik...</text>
+  <circle cx="605" cy="286" r="11" fill="#287d91"/><path d="m600 286 4 4 6-8" fill="none" stroke="#fff" stroke-width="2"/>
+</svg>
